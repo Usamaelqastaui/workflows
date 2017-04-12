@@ -1,0 +1,19 @@
+$main-color: #00ff00;
+@mixin hobahii {
+  color: $main-color;
+}
+
+#main p {
+  color: $main_color ;
+  width: 97%;
+
+  .redbox {
+    background-color: #ff0000;
+    color: #000000;
+  }
+
+  .helahob {
+    background-color: red;
+  }
+  @include hobahii
+}
