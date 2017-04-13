@@ -1,5 +1,5 @@
 $(function() {
-
+	var Mustache = require('mustache');
 	$('.tagline').append('The most creative minds in Art');
 
   $.getJSON('js/data.json', function(data) {
@@ -7,5 +7,5 @@ $(function() {
     var html = Mustache.to_html(template, data);
     $('#speakers').html(html);
   }); //getJSON
-  
+
 }); //function
