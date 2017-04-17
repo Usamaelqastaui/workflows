@@ -78,13 +78,13 @@ $ = require('jquery');
 
 (fill = function(item) {
   return $('.tagline').append("" + item);
-})('The creative minds in Art');
+})('The most creative minds in Art');
 
 fill;
 
 $(function() {
 	var Mustache = require('mustache');
-	$('.tagline').append('The most creative minds in Art');
+	// $('.tagline').append('The most creative minds in Art');
 
   $.getJSON('js/data.json', function(data) {
     var template = $('#speakerstpl').html();
