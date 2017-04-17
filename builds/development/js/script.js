@@ -84,7 +84,7 @@ fill;
 
 $(function() {
 	var Mustache = require('mustache');
-	// $('.tagline').append('The most creative minds in Art');
+	
 
   $.getJSON('js/data.json', function(data) {
     var template = $('#speakerstpl').html();
